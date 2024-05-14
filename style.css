@@ -1,0 +1,114 @@
+body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+#bg {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-image: url("img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 131.5vh;
+    height: 93vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 2vh;
+}
+
+#logo {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:10vh;
+    width:28vh;
+    height:13vh;
+    background-image: url("img/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#title {
+    position: absolute;
+    top:21.5vh;
+    width: 51vh;
+    color: #00dd00;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+}
+
+#buttons {
+    display: flex;
+    position: absolute;
+    top:29vh;
+    left:50%;
+    transform: translateX(-50%);
+    height: 5vh;
+    width:110vh;
+    background-color: #00dd00;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#tContainer {
+    position: absolute;
+    left:11vh;
+    top:33.9vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+#tContainer h2{
+    padding-left: 3vh;
+    line-height: 2.8vh;
+}
+
+#tContainer p{
+    font-size: 1.9vh;
+    font-weight: 500;
+    line-height: 0.5vh;
+}
+
+#box {
+    position: fixed;
+    margin:0.8vh;
+    width:1.3vh;
+    height: 1.3vh;
+    background-color: white;
+}
+
+.btn {
+    margin:0.2vh;
+}
+
+#bar {
+    height: 3vh;
+    border-radius: 0.5vh;
+}
+
+.bar_yellow {
+    width: 38.5vh;
+    background-color: #f5b453;
+}
+
+.bar_green {
+    width: 66vh;
+    background-color: #1ec31e;
+}
+
+.bar_red {
+    width: 17vh;
+    background-color: #be4141;
+}
